@@ -2,8 +2,20 @@ import ItemsIcon from "@/assets/icons/items.png";
 import PokemonIcon from "@/assets/icons/pokemon.png";
 import { Image } from "expo-image";
 import { Tabs } from "expo-router";
+import { Text } from "react-native";
+
 
 export default function RootLayout() {
+        <Tabs.Screen
+        name="favoritos"
+        options={{
+          title: "Favoritos",
+          headerShown: false,
+          tabBarIcon: ({ size }) => (
+            <Text style={{ fontSize: size }}>❤️</Text>
+          ),
+        }}
+      />
   return (
     <Tabs screenOptions={{ headerShown: false }}>
       <Tabs.Screen

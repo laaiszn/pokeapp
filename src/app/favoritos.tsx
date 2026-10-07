@@ -1,11 +1,11 @@
-import ListItems from "@/components/ListItems/ListItems";
+import ListFavorites from "@/components/ListFavorites/ListFavorites";
 import { StyleSheet } from "react-native";
 import { SafeAreaView } from 'react-native-safe-area-context';
 
-export default function Items() {
+export default function Favoritos() {
     return (
         <SafeAreaView style={styles.container} edges={['top']}>
-            <ListItems />
+            <ListFavorites />
         </SafeAreaView>
     );
 }
@@ -16,4 +16,3 @@ const styles = StyleSheet.create({
         backgroundColor: "#F7FAFC",
     },
 });
-
