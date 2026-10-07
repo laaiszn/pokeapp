@@ -1,7 +1,7 @@
 import Pokemon from "@/interface/Pokemon";
 import { useState } from "react";
 import { Image, StyleSheet, TextInput, View } from "react-native";
-import { estilos } from "../../layout/layout";
+import { estilos } from "../../layout/layout";       
 import Requests from "../../service/PokemonsRequests";
 import ShowPokemon from "../ShowPokemon/ShowPokemon";
 
